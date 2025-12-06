@@ -1,0 +1,12 @@
+execution_duration_ms: 11434
+request_preview: I saw an ad about the black boot that the company has launched recently.
+  I would like to know more.
+request_time: '2025-12-06T17:18:22.603Z'
+response_preview: Have you ever struggled to catch roadrunners? Our new black boot,
+  designed for maximum stealth, might be the solution you need!
+state: OK
+trace_id: tr-14dc78ca48804a65fd1d06a90c63bb57
+trace_location:
+  mlflow_experiment:
+    experiment_id: '605548861687891231'
+  type: MLFLOW_EXPERIMENT

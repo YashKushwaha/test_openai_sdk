@@ -1,0 +1,12 @@
+execution_duration_ms: 5331
+request_preview: Actually, I want a refund.
+request_time: '2025-12-06T16:59:50.321Z'
+response_preview: "Your refund for the black boot is being processed! \U0001F389 You
+  should receive a confirmation email shortly. If you have any questions or need further
+  assistance, feel free to ask. Have a great day!"
+state: OK
+trace_id: tr-085b50a795c0b5d86145c555b8df57f1
+trace_location:
+  mlflow_experiment:
+    experiment_id: '605548861687891231'
+  type: MLFLOW_EXPERIMENT
