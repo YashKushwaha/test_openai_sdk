@@ -1,3 +1,5 @@
+## https://cookbook.openai.com/examples/orchestrating_agents#handoffs
+
 import json
 from pydantic import BaseModel
 from scripts.utils import MODEL, function_to_schema
@@ -190,6 +192,7 @@ if __name__ == '__main__':
 
     while True:
         user = input("User: ")
+        if not user: break
         messages.append({"role": "user", "content": user})
 
         response = run_full_turn(agent, messages)

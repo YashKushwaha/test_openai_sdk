@@ -1,1 +1,3 @@
-{"id": "chatcmpl-977", "choices": [{"finish_reason": "stop", "index": 0, "logprobs": null, "message": {"content": "Could you provide the order number or any details about the damaged product so we can look up the item ID and proceed with a replace...
+version https://git-lfs.github.com/spec/v1
+oid sha256:556e3b9629f7f8f4bb62022a5cb3c56480973763afd207611495e26210168e3c
+size 250

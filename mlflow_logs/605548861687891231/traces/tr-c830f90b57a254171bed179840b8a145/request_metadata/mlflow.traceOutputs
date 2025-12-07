@@ -1,1 +1,3 @@
-{"id": "chatcmpl-346", "choices": [{"finish_reason": "stop", "index": 0, "logprobs": null, "message": {"content": "You're all set! If you need anything else, feel free to ask. Have a great day! 😊", "refusal": null, "role": "assistant", "annotation...
+version https://git-lfs.github.com/spec/v1
+oid sha256:56acebb15953fe5630efecd12922ebf13d2a5b7b250d020368e7275a352b5519
+size 253

@@ -1,1 +1,3 @@
-{"id": "chatcmpl-83", "choices": [{"finish_reason": "tool_calls", "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role": "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls": [{"id": "call...
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4a618aa318138e67fae52607edcbc57b86fed7a795545a3f60814bf8c19ee01
+size 250

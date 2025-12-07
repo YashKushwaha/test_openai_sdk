@@ -1,1 +1,3 @@
-{"model": "qwen3:14b", "messages": [{"role": "system", "content": "You are a sales agent for ACME Inc.Always answer in a sentence or less.Follow the following routine with the user:1. Ask them about any problems in their life related to catching r...
+version https://git-lfs.github.com/spec/v1
+oid sha256:795ccdbcdd771ee007500295ec5f1676ba658648e4858a79e119e7959d938044
+size 250

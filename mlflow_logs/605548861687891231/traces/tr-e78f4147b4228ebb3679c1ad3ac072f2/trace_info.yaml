@@ -1,21 +1,3 @@
-execution_duration_ms: 4576
-request_preview: 'yes'
-request_time: '2025-12-07T04:46:00.668Z'
-response_preview: '{"id": "chatcmpl-633", "choices": [{"finish_reason": "tool_calls",
-  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
-  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
-  [{"id": "call_ya36ztpd", "function": {"arguments": "{}", "name": "transfer_to_issues_and_repairs"},
-  "type": "function", "index": 0}], "reasoning": "Okay, the user has confirmed they
-  want to proceed with the repair. Since they mentioned damage during delivery, this
-  falls under the Issues and Repairs department. I need to transfer them to that team.
-  The function to use here is transfer_to_issues_and_repairs. No parameters are needed,
-  so the arguments will be empty. Let me make sure I''m using the correct function
-  and not missing any steps. Yep, that''s right. Just need to call the function with
-  empty arguments.\n"}}], "created": 1765082765, "model": "qwen3:14b", "object": "chat.completion",
-  "service_tier": null, "system_fingerprint": "fp_ollama", "usage": ...'
-state: OK
-trace_id: tr-e78f4147b4228ebb3679c1ad3ac072f2
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:27171f3c250fa963f545de8e88502a746ae7617abca46a06da745fcbc4122067
+size 1296

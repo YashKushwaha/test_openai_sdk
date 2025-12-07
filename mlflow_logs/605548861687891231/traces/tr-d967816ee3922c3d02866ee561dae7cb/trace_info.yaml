@@ -1,11 +1,3 @@
-execution_duration_ms: 7305
-request_preview: I think the order ID was item_34781290
-request_time: '2025-12-07T04:46:42.975Z'
-response_preview: The correct item ID for your order is **item_87665672**. Could you
-  confirm if you’d like a repair, replacement, or refund for the damaged product?
-state: OK
-trace_id: tr-d967816ee3922c3d02866ee561dae7cb
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:83fcec58942320ad1347b8b16328576c64e1ee72f3fb18bf0ce4ec19a02018d2
+size 453

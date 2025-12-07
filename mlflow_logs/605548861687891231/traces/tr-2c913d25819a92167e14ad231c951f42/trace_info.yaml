@@ -1,12 +1,3 @@
-execution_duration_ms: 3681
-request_preview: yok, i would like to buy that.
-request_time: '2025-12-07T04:43:21.907Z'
-response_preview: "Your order for the Sonic Zap Trap is processing! You’ll also receive
-  your pet roadrunner in 3-5 business days. They’re surprisingly good at hide-and-seek.
-  \U0001F43E"
-state: OK
-trace_id: tr-2c913d25819a92167e14ad231c951f42
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae4faa470d438213ea40a7b7424f49c6e49290dc1b82b824bdd7bc3b16f082a7
+size 470

@@ -1,6 +1,3 @@
-artifact_location: file:////mnt/e/PROJECTS/test_openai_sdk/mlflow_logs/605548861687891231
-creation_time: 1765040371020
-experiment_id: '605548861687891231'
-last_update_time: 1765040371020
-lifecycle_stage: active
-name: openai demo from website
+version https://git-lfs.github.com/spec/v1
+oid sha256:264fe14f5fc1458fd3ecc9747895742ec42479f1c9072c8d03a7c113b3a7fb96
+size 242

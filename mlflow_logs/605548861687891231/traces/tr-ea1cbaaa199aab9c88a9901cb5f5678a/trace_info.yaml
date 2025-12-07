@@ -1,24 +1,3 @@
-execution_duration_ms: 9836
-request_preview: 'Hi, I need some help. There are roadrunners in my area that are
-  bothering me. I have heard that you have a great collection of products that could
-  help me catch roadrunners. '
-request_time: '2025-12-07T04:41:35.112Z'
-response_preview: '{"id": "chatcmpl-174", "choices": [{"finish_reason": "tool_calls",
-  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
-  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
-  [{"id": "call_1zksrt4r", "function": {"arguments": "{}", "name": "transfer_to_sales_agent"},
-  "type": "function", "index": 0}], "reasoning": "Okay, the user is talking about
-  roadrunners causing trouble and mentions catching them. They heard ACME has products
-  for that. Let me check the tools available.\n\nThe functions are transfer_to_sales_agent,
-  transfer_to_issues_and_repairs, and escalate_to_human. The user is asking about
-  products to catch roadrunners, which sounds like a sales inquiry. The sales agent
-  function is for buying or sales-related issues. The issues/repairs is for problems
-  with existing products. Since the user wants to buy a product, the right transfer
-  is to the sales agent. I don''t need to escalate here because it''s a straightforward
-  sal...'
-state: OK
-trace_id: tr-ea1cbaaa199aab9c88a9901cb5f5678a
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:de7abf6a9f3e0f725e939af9deab7c2ca154de177639bf985d3145dfd821e186
+size 1473

@@ -1,12 +1,3 @@
-execution_duration_ms: 4485
-request_preview: Place an order for a black boot.
-request_time: '2025-12-06T16:59:40.832Z'
-response_preview: "Your order for a black boot has been successfully placed! \U0001F97E
-  Let me know if you need any further assistance or have additional requests. Happy
-  shopping!"
-state: OK
-trace_id: tr-31f0282a6b83ee297a7a42cd3e25890e
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3358048583fc3feecdba19b9ff73c805c5aedb774c11b17c2a496d6933e3fa2
+size 463

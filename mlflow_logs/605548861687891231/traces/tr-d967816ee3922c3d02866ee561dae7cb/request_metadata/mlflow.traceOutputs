@@ -1,1 +1,3 @@
-{"id": "chatcmpl-290", "choices": [{"finish_reason": "stop", "index": 0, "logprobs": null, "message": {"content": "The correct item ID for your order is **item_87665672**. Could you confirm if you’d like a repair, replacement, or refund for the da...
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d67fb7c89be3f2885b0c2f5be5695b358e5ec4e395ab19c01ce444717a08885
+size 252

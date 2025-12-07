@@ -1,12 +1,3 @@
-execution_duration_ms: 10408
-request_preview: No, I have not tried that. But the SOniz Zap Trap does seem promising.
-request_time: '2025-12-07T04:42:25.097Z'
-response_preview: The Sonic Zap Trap is $999,999. Once ordered, you’ll also receive
-  a 10-year warranty and a free pet roadrunner (they’re quite charming, we promise).
-  Would you like to proceed?
-state: OK
-trace_id: tr-73cb695e2d75372d7a97f3fa92424ef3
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:25200d9fb434baa4db7db555377bd1565bc99b58986d4c1d335a70a562cd5e9e
+size 519

@@ -1,1 +1,3 @@
-{"model": "qwen3:14b", "messages": [{"role": "system", "content": "You are a customer support agent for ACME Inc.Always answer in a sentence or less.Follow the following routine with the user:1. First, ask probing questions and understand the user...
+version https://git-lfs.github.com/spec/v1
+oid sha256:53d7f3f3e2574475506b8ff347f74a55e8f7ce694ed2ada23351ed2742671018
+size 250

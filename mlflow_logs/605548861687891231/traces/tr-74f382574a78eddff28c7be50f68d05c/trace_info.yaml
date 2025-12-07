@@ -1,24 +1,3 @@
-execution_duration_ms: 8359
-request_preview: Hey, I got the delivery of my Sonic Zap Trap. Looks like there was
-  some damage to the equipment during the delivery process. Can you help me get product
-  repaired ?
-request_time: '2025-12-07T04:45:22.760Z'
-response_preview: '{"id": "chatcmpl-904", "choices": [{"finish_reason": "tool_calls",
-  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
-  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
-  [{"id": "call_6xrzof3h", "function": {"arguments": "{}", "name": "transfer_back_to_triage"},
-  "type": "function", "index": 0}], "reasoning": "Okay, the user received a damaged
-  Sonic Zap Trap. They want help getting it repaired. Let me check the tools available.\n\nHmm,
-  the tools provided are execute_order and transfer_back_to_triage. The execute_order
-  is for placing an order, but the user is asking about a repair. Since there''s no
-  function for handling repairs, I should transfer them back to triage. The triage
-  function is for when the user''s issue is outside the sales agent''s scope, which
-  includes escalating to a human. \n\nSo, I need to call transfer_back_to_triage.
-  The user''s request is about a repair, which isn''t covered by the current tools.
-  I shoul...'
-state: OK
-trace_id: tr-74f382574a78eddff28c7be50f68d05c
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:61ce04e1b1f2d289f4c5b6f029e83079187e3dd3a75e53d0dc548dcea245247e
+size 1463

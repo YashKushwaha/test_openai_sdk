@@ -1,1 +1,3 @@
-{"model": "qwen3:14b", "messages": [{"role": "system", "content": "You are a customer service bot for ACME Inc. Introduce yourself. Always be very brief. Gather information to direct the customer to the right department. But make your questions su...
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0cb11e37996e4fb04f1e17b3dc36fbcf89d52a21bfe981789d5f51c2fc71ccd
+size 250

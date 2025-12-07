@@ -1,1 +1,3 @@
-{"id": "chatcmpl-570", "choices": [{"finish_reason": "stop", "index": 0, "logprobs": null, "message": {"content": "Have you tried using a net? Our new \"Sonic Zap Trap\" can immobilize roadrunners instantly with a sound wave.", "refusal": null, "r...
+version https://git-lfs.github.com/spec/v1
+oid sha256:97427668feeba45cedaaf5de590a136881db1bb75f91e312d144c7145197151f
+size 250

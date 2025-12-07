@@ -1,21 +1,3 @@
-execution_duration_ms: 13613
-request_preview: I want to return the black boots that I purchased last week.
-request_time: '2025-12-06T17:22:33.641Z'
-response_preview: '{"id": "chatcmpl-979", "choices": [{"finish_reason": "tool_calls",
-  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
-  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
-  [{"id": "call_s1d0tivv", "function": {"arguments": "{\"summary\":\"Customer wants
-  to return black boots purchased last week and seek a refund. Need to collect order
-  number and reason for return.\"}", "name": "escalate_to_human"}, "type": "function",
-  "index": 0}], "reasoning": "Okay, the user wants to return the black boots they
-  bought last week. Let me check the tools available. There''s a function called transfer_to_issues_and_repairs
-  for returns, refunds, or repairs. Since the user is asking about a return, I should
-  use that function. The parameters required are order number and reason, but the
-  user hasn''t provided them yet. Wait, in the previous message, the user mentioned
-  wanting a refund, and the assistant asked for the order number and reason. Now...'
-state: OK
-trace_id: tr-3de0bea5b85b83f7fdbd2f465f0e7f23
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:420add96f5f9b17748c1f5b8530422dff227a049ef2d03ad7fb20ff30b539696
+size 1352

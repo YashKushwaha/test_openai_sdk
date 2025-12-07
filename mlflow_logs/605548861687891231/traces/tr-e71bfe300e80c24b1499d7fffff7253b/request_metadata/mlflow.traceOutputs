@@ -1,1 +1,3 @@
-{"id": "chatcmpl-544", "choices": [{"finish_reason": "tool_calls", "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role": "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls": [{"id": "cal...
+version https://git-lfs.github.com/spec/v1
+oid sha256:bda88028d42e8fd056b5330c70ff1bcbd9ca76272f482c8b7e0e7c4c834482f1
+size 250

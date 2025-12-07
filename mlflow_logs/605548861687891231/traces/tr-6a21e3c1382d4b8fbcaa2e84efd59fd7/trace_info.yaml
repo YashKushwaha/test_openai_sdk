@@ -1,21 +1,3 @@
-execution_duration_ms: 4817
-request_preview: Actually, I want a refund.
-request_time: '2025-12-06T16:59:45.443Z'
-response_preview: '{"id": "chatcmpl-937", "choices": [{"finish_reason": "tool_calls",
-  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
-  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
-  [{"id": "call_ty4iu4zp", "function": {"arguments": "{\"item_name\":\"black boot\"}",
-  "name": "execute_refund"}, "type": "function", "index": 0}], "reasoning": "Okay,
-  the user initially asked to place an order for a black boot, and I successfully
-  processed that. Now they''re saying they want a refund. Let me check the tools available.
-  There''s an execute_refund function that requires the item name. Since the order
-  was for a black boot, I need to call that function with \"black boot\" as the item_name.
-  I should make sure to use the correct parameters and function name. No other tools
-  are available, so this is the right approach. Let me structure the tool call accordingly.\n"}}],
-  "created": 1765040390, "model": "qwen3:14b", "object": "chat.completion", "ser...'
-state: OK
-trace_id: tr-6a21e3c1382d4b8fbcaa2e84efd59fd7
-trace_location:
-  mlflow_experiment:
-    experiment_id: '605548861687891231'
-  type: MLFLOW_EXPERIMENT
+version https://git-lfs.github.com/spec/v1
+oid sha256:c162ad21103d1f442ffe935848a8034fa8b5777fb44e68ee3ba072c88ea34e9a
+size 1317
