@@ -1,0 +1,22 @@
+execution_duration_ms: 6176
+request_preview: yok, i would like to buy that.
+request_time: '2025-12-07T04:43:05.531Z'
+response_preview: '{"id": "chatcmpl-601", "choices": [{"finish_reason": "tool_calls",
+  "index": 0, "logprobs": null, "message": {"content": "", "refusal": null, "role":
+  "assistant", "annotations": null, "audio": null, "function_call": null, "tool_calls":
+  [{"id": "call_4x01npz1", "function": {"arguments": "{\"price\":999999,\"product\":\"Sonic
+  Zap Trap\"}", "name": "execute_order"}, "type": "function", "index": 0}], "reasoning":
+  "Okay, the user wants to buy the Sonic Zap Trap. Let me check the steps again. First,
+  I need to make sure I''ve asked about their problem with roadrunners, which I did.
+  Then I mentioned the product, which they liked. The price was $999,999, and I added
+  a caveat about the pet roadrunner. Now, since they said yes, I should execute the
+  order. The function execute_order requires product and price. The product is \"Sonic
+  Zap Trap\" and price is 999999. I need to call the execute_order function with these
+  parameters. Let me format that correctly.\n"}}], "created": 1765082591, "model":
+  ...'
+state: OK
+trace_id: tr-1a323a4ce91d2b3e96e16adb72dafef8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '605548861687891231'
+  type: MLFLOW_EXPERIMENT

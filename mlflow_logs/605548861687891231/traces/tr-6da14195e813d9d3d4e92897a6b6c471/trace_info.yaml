@@ -1,0 +1,13 @@
+execution_duration_ms: 6317
+request_preview: 'Hi, I need some help. There are roadrunners in my area that are
+  bothering me. I have heard that you have a great collection of products that could
+  help me catch roadrunners. '
+request_time: '2025-12-07T04:41:45.067Z'
+response_preview: Have you tried using a net? Our new "Sonic Zap Trap" can immobilize
+  roadrunners instantly with a sound wave.
+state: OK
+trace_id: tr-6da14195e813d9d3d4e92897a6b6c471
+trace_location:
+  mlflow_experiment:
+    experiment_id: '605548861687891231'
+  type: MLFLOW_EXPERIMENT
