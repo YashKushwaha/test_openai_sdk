@@ -69,8 +69,6 @@ def execute_refund(item_id, reason="not provided"):
 
 
 
-MODEL = 'qwen3:14b'
-
 def run_full_turn(client, system_message, tools, messages):
 
     num_init_messages = len(messages)
@@ -165,3 +163,20 @@ def get_client():
     api_key = 'ollama'
     client  = OpenAI(base_url=base_url,api_key=api_key )
     return client
+
+def check_os_type():
+    import platform
+    system = platform.system()
+
+    if system == "Darwin":
+        os_type = 'macOS'
+    elif system == "Linux" and "WSL" in platform.release():
+        os_type = "WSL"
+    else:
+        os_type = 'Other'
+
+    return os_type
+
+
+
+MODEL = 'qwen3:14b' if check_os_type() != 'macOS' else 'qwen3:1.7b'
