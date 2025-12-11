@@ -136,6 +136,7 @@ system_message = (
 )
 import mlflow
 from pathlib import Path
+import os
 
 def setup_logging():
     current_dir = Path.cwd()
@@ -144,8 +145,14 @@ def setup_logging():
     mlflow_logs.mkdir(exist_ok=True)
     db_path = mlflow_logs / "mlflow.db"
     print('MLFLOW DB -> ', db_path)
-    #mlflow.set_tracking_uri(f"sqlite:///{db_path.resolve()}")
-    mlflow.set_tracking_uri(f"file:///{mlflow_logs.resolve()}")
+
+    postgres_server = False# os.environ.get('POSTGRESQL')
+    if postgres_server:
+        print('USING POSTGRESQL at ', postgres_server.split('@')[-1])
+        mlflow.set_tracking_uri(postgres_server)
+    else:
+        #mlflow.set_tracking_uri(f"sqlite:///{db_path.resolve()}")
+        mlflow.set_tracking_uri(f"file:///{mlflow_logs.resolve()}")
 
     mlflow.set_experiment("openai demo from website")
     mlflow.openai.autolog()
@@ -164,4 +171,11 @@ def get_client():
     base_url = 'http://localhost:11434/v1'
     api_key = 'ollama'
     client  = OpenAI(base_url=base_url,api_key=api_key )
+    return client
+
+def get_async_client():
+    from openai import AsyncOpenAI
+    base_url = 'http://localhost:11434/v1'
+    api_key = 'ollama'
+    client  = AsyncOpenAI(base_url=base_url,api_key=api_key )
     return client

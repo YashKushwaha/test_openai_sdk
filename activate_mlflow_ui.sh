@@ -17,3 +17,5 @@ echo "Backend store: sqlite:///$DB_PATH"
 # Run MLflow UI
 #mlflow ui --backend-store-uri "sqlite:///$DB_PATH" --host 0.0.0.0 --port 5000
 mlflow ui --backend-store-uri "file:///$MLFLOW_DIR" --host 0.0.0.0 --port 5000
+
+#mlflow ui --backend-store-uri "$POSTGRESQL" --host 0.0.0.0 --port 5000
